@@ -3,6 +3,8 @@
 
 EAPI=8
 
+inherit cmake
+
 DESCRIPTION="A Free/Libre and Open Source Software Qt based Minesweeper game"
 HOMEPAGE="https://github.com/Bollos00/LibreMines"
 SRC_URI="https://github.com/Bollos00/${PN}/archive/refs/tags/v${PV}.tar.gz"
